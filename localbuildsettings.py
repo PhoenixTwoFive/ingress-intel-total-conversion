@@ -32,7 +32,7 @@ buildSettings = {
     'mobile': {
         'resourceBaseUrl': 'https://phillipatcloud.dynv6.net/iitc/mobile',
         'distUrlBase': 'https://phillipatcloud.dynv6.net/iitc/mobile',
-        'buildMobile': 'release',
+        'buildMobile': 'debug',
     },
 
 
