@@ -30,8 +30,8 @@ buildSettings = {
     # mobile: default entry that also builds the mobile .apk
     # you will need to have the android-sdk installed, and the file mobile/local.properties created as required
     'mobile': {
-        'resourceUrlBase': None,
-        'distUrlBase': None,
+        'resourceBaseUrl': 'https://phillipatcloud.dynv6.net/iitc/mobile',
+        'distUrlBase': 'https://phillipatcloud.dynv6.net/iitc/mobile',
         'buildMobile': 'debug',
     },
 
@@ -39,9 +39,9 @@ buildSettings = {
     # if you want to publish your own fork of the project, and host it on your own web site
     # create a localbuildsettings.py file containing something similar to this
     # note: Firefox+Greasemonkey require the distUrlBase to be "https" - they won't check for updates on regular "http" URLs
-    'example': {
-        'resourceBaseUrl': 'http://www.example.com/iitc/dist',
-        'distUrlBase': 'https://secure.example.com/iitc/dist',
+    'publish': {
+        'resourceBaseUrl': 'https://phillipatcloud.dynv6.net/iitc/dist',
+        'distUrlBase': 'https://phillipatcloud.dynv6.net/iitc/dist',
     },
 
 
